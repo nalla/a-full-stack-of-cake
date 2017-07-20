@@ -1,0 +1,20 @@
+[
+	{
+		"Id": "webapi",
+		"Directories": [
+			{
+				"SourcePath": "./src/webapi/bin/[BuildConfiguration]/netcoreapp1.1/publish",
+				"TargetPath": "./application"
+			}
+		]
+	},
+	{
+		"Id": "webapp",
+		"Directories": [
+			{
+				"SourcePath": "./src/webapp/dist",
+				"TargetPath": "./application"
+			}
+		]
+	}
+]
